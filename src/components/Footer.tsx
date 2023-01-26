@@ -8,8 +8,9 @@ export default function Footer(){
                 <div className="short_about">
                     <h2>SpaceIn</h2>
 
-                    <p>We give High Quality training to make our students stand out
-                        amongst other students from other University
+                    <p className="leading-7">
+                        SpaceIn is the LinkedIn of Iknite Space. 
+                        Here, you get know more about the Talents and Projects of Iknite Space
                     </p>
                 </div>
 
@@ -37,7 +38,6 @@ export default function Footer(){
                     <h2>Others</h2>
                     <ul>
                         <li><a href="">Blog</a></li>
-                        <li><a href="">Support</a></li>
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">Sign Up</a></li>
                         <li><a href="">Sign In</a></li>

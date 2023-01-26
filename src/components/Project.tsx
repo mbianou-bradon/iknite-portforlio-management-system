@@ -3,7 +3,7 @@ import sample from "../assets/sample.jpeg"
 
 export default function ProjectComponent() {
   return (
-    <div className="flex items-center flex-wrap min-h-screen gap-3 px-3 bg-violet-600 [&>*]:shadow-sm [&>*:hover]:shadow-lg [&>*:hover]:shadow-slate-900">
+    <div className="flex items-center flex-wrap min-h-screen gap-3 px-3 bg-violet-600 [&>*]:shadow-sm [&>*:hover]:shadow-md [&>*:hover]:shadow-slate-900">
     <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-600 overflow-hidden">
         <div>
             <div className="project__img h-[10rem]">

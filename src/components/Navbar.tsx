@@ -6,8 +6,8 @@ import {TfiLayoutGrid2Alt} from "react-icons/tfi"
 
 export default function Navbar(): JSX.Element {
   return (
-    <nav className="flex items-center justify-between md:justify-around font-semibold py-5 bg-red-400 px-4 md:px-0">
-      <div className="brand text-2xl text-violet-700">Space<span className="text-black">In</span></div>
+    <nav className="flex items-center justify-between md:justify-around font-semibold py-5 bg-red-40 px-4 md:px-0 text-slate-900">
+      <div className="brand text-2xl text-violet-700">Space<span className="text-slate-900">In</span></div>
       <ul className="hidden md:flex gap-10 [&>*>a]:flex [&>*>a]:items-center [&>*>a]:gap-1 [&>*:hover]:text-violet-800 [&>*]:cursor-pointer">
         <li>
             <a href="">

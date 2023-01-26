@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Engineer from './components/Engineer';
+import Home from './pages/Home';
+
+
 
 function App() {
   return (
-    <div className="App">
-     <Footer/>
+    <div className="App text-slate-900 selection:text-white selection:bg-violet-600">
+      <Engineer/>
     </div>
   );
 }
