@@ -1,15 +1,15 @@
-import {props} from "../dataTypes"
+import {News} from "../dataTypes"
 
-export default function NewsCard (props: props){
+export default function NewsCard (prop:{ news: News }){
     return (
         <div>
             <div>
                 <div className="news__img"><img src="" alt="" /></div>
 
                 <div className="newscontent">
-                    <div className="news__title">{props.News.NewsTitle}</div>
-                    <div className="description">{props.News.description}</div>
-                    <div className="datepublished">{props.News.DatePublished}</div>
+                    <div className="news__title">{prop.news.newsTitle}</div>
+                    <div className="description">{prop.news.description}</div>
+                    <div className="datepublished">{prop.news.datePublished}</div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Engineer from '../components/HomeCard'
+import Engineer from '../components/EngineerCard'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'

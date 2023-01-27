@@ -2,7 +2,7 @@ import home from '../assets/Home.jpg'
 
 export default function Hero () {
     return (
-        <header className='grid grid-cols-1 lg:grid-cols-2 min-h-max [&>*]:place-self-center [&>*]: gap-y-14 px-8 py-10 md:px-16 lg:min-h-screen'>
+        <header className='grid grid-cols-1 lg:grid-cols-2 min-h-max [&>*]:place-self-center [&>*]: gap-y-14 px-8 py-10 md:px-16 lg:min-h-[85vh] mb-5'>
             <div>
                 <div className=''>
                     <h2 className='text-3xl md:text-5xl leading-12 font-bold mb-5'>Welcome on <span className="text-violet-600">Space</span>In</h2>

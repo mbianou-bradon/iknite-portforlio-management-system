@@ -1,12 +1,29 @@
-import {props} from "../dataTypes"
+
 import NewsCard from "./NewsCard"
 
-const NewsData: props[News][] = [
+const  newsData: { 
+    newsTitle: string, 
+    description: string, 
+    datePublished: string, 
+    newsImage: string 
+}[] = [
     {
-        Newstitle: "",
-        description: "",
-        datePublished: "",
-        Newsimage: ""
+        newsTitle: "Kimboh Lovette",
+        description: "lorem",
+        datePublished: "Jan 27, 2023",
+        newsImage: ""
+    },
+    {
+        newsTitle: "Kimboh Lovette",
+        description: "lorem",
+        datePublished: "Jan 27, 2023",
+        newsImage: ""
+    },
+    {
+        newsTitle: "Kimboh Lovette",
+        description: "lorem",
+        datePublished: "Jan 27, 2023",
+        newsImage: ""
     }
 ]
 
@@ -20,9 +37,9 @@ export default function NewsandUpdate (){
 
             <div className="flex items-center gap-3 [&>*]:border-orange-600 [&>*:hover]:bg-orange-400 [&>*:hover]:text-white mx-8">
                 {
-                    NewsData.map((news) => {
+                    newsData.map((newNews) => {
                         return (
-                        <NewsCard Newstitle = {news.Newstitle} DatePubished = {news.datePublished} description = {news.description}/>
+                        <NewsCard news = {newNews}/>
                         )
                     })
                 }

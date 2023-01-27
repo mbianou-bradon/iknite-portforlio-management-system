@@ -1,22 +1,24 @@
 
-export interface props{
-    Profile: Profile
-    News: News
-    Project: Project
-}
+// export interface props{
+//     profile: Profile
+//     news: News
+//     project: Project
+//     newsTitle?: string
+// }
 
-interface Profile {
+export interface Profile {
     name: string,
-    picture: string,
+    position: string,
+    picture?: string,
     description?: string,
 
 }
 
-interface News {
-    NewsTitle: string
+export interface News {
+    newsTitle: string
     description: string
-    NewsImage: string
-    DatePublished: string
+    newsImage: string
+    datePublished: string
 }
 
 interface Project {
