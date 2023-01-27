@@ -1,6 +1,7 @@
+import {props} from "../dataTypes"
 import NewsCard from "./NewsCard"
 
-const NewsData = [
+const NewsData: props[News][] = [
     {
         Newstitle: "",
         description: "",
@@ -21,7 +22,7 @@ export default function NewsandUpdate (){
                 {
                     NewsData.map((news) => {
                         return (
-                        <NewsCard title = {news.Newstitle} datePubished = {news.datePublished} description = {news.description}/>
+                        <NewsCard Newstitle = {news.Newstitle} DatePubished = {news.datePublished} description = {news.description}/>
                         )
                     })
                 }
