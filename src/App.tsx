@@ -1,5 +1,7 @@
 import React from 'react';
-import Engineer from './components/Engineer';
+import DesignerHome from './components/DesignerHome';
+import EngineerHome from './components/EngineerHome';
+import Engineer from './components/HomeCard';
 import Home from './pages/Home';
 
 
@@ -7,7 +9,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App text-slate-900 selection:text-white selection:bg-violet-600">
-      <Engineer/>
+      <Home/>
     </div>
   );
 }

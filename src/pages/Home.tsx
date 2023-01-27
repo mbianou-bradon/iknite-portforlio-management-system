@@ -1,9 +1,11 @@
 import React from 'react'
-import Engineer from '../components/Engineer'
+import Engineer from '../components/HomeCard'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import ProjectComponent from '../components/Project'
+import EngineerHome from '../components/EngineerHome'
+import DesignerHome from '../components/DesignerHome'
 
 export default function Home() {
   return (
@@ -11,8 +13,8 @@ export default function Home() {
         <Navbar/>
         <Hero/>
         <ProjectComponent/>
-        <Engineer/>
-        <Engineer/>
+        <EngineerHome/>
+        <DesignerHome/>
         <Footer/>
     </div>
   )
