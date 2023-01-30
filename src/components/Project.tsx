@@ -3,8 +3,8 @@ import sample from "../assets/sample.jpeg"
 
 export default function ProjectComponent() {
   return (
-    <div className="flex items-center flex-wrap min-h-screen gap-3 px-3 bg-violet-600 [&>*]:shadow-sm [&>*:hover]:shadow-md [&>*:hover]:shadow-slate-900">
-    <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-600 overflow-hidden">
+    <div className="flex items-center flex-wrap min-h-screen gap-3 px-3 bg-violet-800 [&>*]:shadow-sm [&>*:hover]:shadow-md [&>*:hover]:shadow-slate-900">
+    <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-800 overflow-hidden">
         <div>
             <div className="project__img h-[10rem]">
                 <img src={sample} alt="" className="h-full w-full object-cover object-center"/>
@@ -17,12 +17,12 @@ export default function ProjectComponent() {
                     </p>
                 </div>
 
-                <div className="text-white bg-violet-600 px-4 py-2 hover:text-violet-500 hover:bg-white rounded-lg w-fit border border-violet-600 cursor-pointer active:scale-95"><h2>Details</h2></div>
+                <div className="text-white bg-violet-800 px-4 py-2 hover:text-violet-800 hover:bg-white rounded-lg w-fit border border-violet-800 cursor-pointer active:scale-95"><h2>Details</h2></div>
             </div>
         </div>
     </div>
 
-    <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-600 shadow-sm shadow-violet-600 hover:shadow-lg overflow-hidden">
+    <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-800 shadow-sm shadow-violet-800 hover:shadow-lg overflow-hidden">
         <div>
             <div className="project__img h-[10rem]">
                 <img src={sample} alt="" className="h-full w-full object-cover object-cente"/>
@@ -35,12 +35,12 @@ export default function ProjectComponent() {
                     </p>
                 </div>
 
-                <div className="text-white bg-violet-600 px-4 py-2 hover:text-violet-500 hover:bg-white rounded-lg w-fit border border-violet-600 cursor-pointer active:scale-95"><h2>Details</h2></div>
+                <div className="text-white bg-violet-800 px-4 py-2 hover:text-violet-800 hover:bg-white rounded-lg w-fit border border-violet-800 cursor-pointer active:scale-95"><h2>Details</h2></div>
             </div>
         </div>
     </div>
 
-    <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-600 shadow-sm shadow-violet-600 hover:shadow-lg overflow-hidden">
+    <div className="w-full max-w-[18rem] bg-white rounded-lg border border-violet-800 shadow-sm shadow-violet-800 hover:shadow-lg overflow-hidden">
         <div>
             <div className="project__img h-[10rem]">
                 <img src={sample} alt="" className="h-full w-full object-cover object-center"/>
@@ -53,7 +53,7 @@ export default function ProjectComponent() {
                     </p>
                 </div>
 
-                <div className="text-white bg-violet-600 px-4 py-2 hover:text-violet-500 hover:bg-white rounded-lg w-fit border border-violet-600 cursor-pointer active:scale-95"><h2>Details</h2></div>
+                <div className="text-white bg-violet-800 px-4 py-2 hover:text-violet-800 hover:bg-white rounded-lg w-fit border border-violet-800 cursor-pointer active:scale-95"><h2>Details</h2></div>
             </div>
         </div>
     </div>

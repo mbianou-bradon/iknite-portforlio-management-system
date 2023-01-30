@@ -36,7 +36,7 @@ export default function(){
 
     return(
         <div className="px-4 my-10 min-h-screen">
-            <div className="designer text-2xl font-semibold py-2 px-4 bg-violet-600 text-white w-fit rounded-sm my-5">
+            <div className="designer text-2xl font-semibold py-2 px-4 bg-violet-800 text-white w-fit rounded-sm my-5">
                 <h2>Senior Developers</h2>
             </div>
 
