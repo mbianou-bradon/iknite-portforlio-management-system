@@ -1,0 +1,75 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "name": "Mbianou Bradon",
+            "profileImage": "something",
+            "coverImage": "something too",
+            "Department": "Software Developer",
+            "level": "trainee",
+            "mediaLinks": {
+                "facebook": "facebook link",
+                "github": "github link",
+                "linkedIn": "LinkedIn link",
+                "instagram":"instagram link",
+                "twitter": "twitter link"
+            },
+
+            "contributions": [1,2,4,5],
+            
+            "education": [
+                {
+                    "institution": "University of Buea",
+                    "degree": "B.Sc. Biochemistry and Medical Laboratory Technology",
+                    "remark": "Excellent",
+                    "yearStart": 2018,
+                    "yearEnd": 2021
+                },
+                {
+                    "institution": "University of Buea",
+                    "degree": "B.Sc. Biochemistry and Medical Laboratory Technology",
+                    "remark": "Excellent",
+                    "yearStart": 2018,
+                    "yearEnd": 2021
+                }
+            ],
+
+            "contacts": {
+                "emails": [
+                    "email@iknite.com", 
+                    "email@gmail.com"
+                ],
+
+                "phoneNumbers":[
+                    "phoneNumber1", 
+                    "phoneNumber2"
+                ],
+
+                "addresses":[
+                    "address1", 
+                    "address2"
+                ]
+            }
+
+        }
+    ],
+
+    "project":[
+        {
+            "id": 1,
+            "name": "Project name",
+            "desc": "Lorem epsty text",
+            "projectImages": [
+                "image1",
+                "image2",
+                "image3",
+                "image4"
+            ],
+            "contributors": [1 , 2, 3, 4]
+        }
+    ]
+
+
+
+
+}
