@@ -3,6 +3,7 @@ import {AiFillHome, AiFillExclamationCircle} from "react-icons/ai"
 import {TiGroup} from "react-icons/ti"
 import {IoIosPerson, IoMdMenu} from "react-icons/io"
 import {TfiLayoutGrid2Alt} from "react-icons/tfi"
+import { NavLink } from 'react-router-dom'
 
 export default function Navbar(): JSX.Element {
   return (
@@ -10,29 +11,29 @@ export default function Navbar(): JSX.Element {
       <div className="brand text-2xl text-violet-800">Space<span className="text-slate-900">In</span></div>
       <ul className="hidden md:flex gap-10 [&>*>a]:flex [&>*>a]:items-center [&>*>a]:gap-1 [&>*:hover]:text-violet-800 [&>*]:cursor-pointer">
         <li>
-            <a href="">
+            <NavLink to="/" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
                 <h2>Home</h2>
                 <AiFillHome/>
-            </a>
+            </NavLink>
         </li>
         <li>
-            <a href="">
+            <NavLink to="/Project" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
                 <h2>Project</h2>
                 <TfiLayoutGrid2Alt />
-            </a>
+            </NavLink>
         </li>
         <li>
-            <a href="">
+            <NavLink to="/members" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
                 <div></div>
                 <h2>Members</h2>
                 <TiGroup/>
-            </a>
+            </NavLink>
         </li>
         <li>
-            <a href="">
+            <NavLink to="/About" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
                 <h2>About Iknite</h2>
                 <AiFillExclamationCircle/>
-            </a>
+            </NavLink>
         </li>
       </ul>
 

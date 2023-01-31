@@ -1,4 +1,5 @@
 import {MdSummarize} from "react-icons/md"
+import { NavLink } from "react-router-dom"
 import Contact from "./Contact"
 import Education from "./Education"
 import ProjectAndContribution from "./ProjectAndContribution"
@@ -27,9 +28,9 @@ export default function Profile(){
                     </div>
                     <div>
                          <ul className="px-6 my-4 flex items-center justify-between [&>*]:py-2 text-xs sm:text-sm">
-                              <li>Education <span className="hidden md:inline">& Qualifications</span></li>
-                              <li className="border-y-4 border-red-500 rounded text-red-500">Projects <span className="hidden md:inline">& Contribution</span></li>
-                              <li>Contact Info <span className="hidden md:inline">& Socials</span></li>
+                              <li><NavLink to='/members/profile' className={({isActive}) => isActive? "border-y-4 border-red-500 rounded text-red-500 py-2" : "border-y-4 border-transparent text-slate-900"}>Education <span className="hidden md:inline">& Qualifications</span></NavLink></li>
+                              <li><NavLink to='/members/profile/contributions' className={({isActive}) => isActive? "border-y-4 border-red-500 rounded text-red-500 py-2" : "border-y-4 border-transparent text-slate-900"}>Projects <span className="hidden md:inline">& Contribution</span></NavLink></li>
+                              <li><NavLink to='/members/profile/contact' className={({isActive}) => isActive? "border-y-4 border-red-500 rounded text-red-500 py-2" : "border-y-4 border-transparent text-slate-900"}>Contact Info <span className="hidden md:inline">& Socials</span></NavLink></li>
                          </ul>
 
                          <div className="px-8 py-5 border rounded-xl shadow-inner">

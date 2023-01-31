@@ -1,5 +1,6 @@
 import { FaFacebookF , FaTwitter, FaLinkedinIn } from "react-icons/fa"
 import { AiFillInstagram } from "react-icons/ai"
+import { NavLink } from "react-router-dom"
 
 export default function Footer(){
     return(
@@ -17,30 +18,30 @@ export default function Footer(){
                 <div className="md:justify-self-center">
                     <h2>Site Map</h2>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Members</a></li>
-                        <li><a href="">About</a></li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/Project">Projects</NavLink></li>
+                        <li><NavLink to="/Members">Members</NavLink></li>
+                        <li><NavLink to="/About">About</NavLink></li>
                     </ul>
                 </div>
 
                 <div className="md:justify-self-center">
                     <h2>Partners</h2>
                     <ul>
-                        <li><a href="">Mountain Hub</a></li>
-                        <li><a href="">Iknite Studio</a></li>
-                        <li><a href="">Mocu</a></li>
-                        <li><a href="">Digital Rental</a></li>
+                        <li><NavLink to="">Mountain Hub</NavLink></li>
+                        <li><NavLink to="">Iknite Studio</NavLink></li>
+                        <li><NavLink to="">Mocu</NavLink></li>
+                        <li><NavLink to="">Digital Rental</NavLink></li>
                     </ul>
                 </div>
 
                 <div>
                     <h2>Others</h2>
                     <ul>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Sign Up</a></li>
-                        <li><a href="">Sign In</a></li>
+                        <li><NavLink to="">Blog</NavLink></li>
+                        <li><NavLink to="">Contact Us</NavLink></li>
+                        <li><NavLink to="">Sign Up</NavLink></li>
+                        <li><NavLink to="">Sign In</NavLink></li>
                         <div className="flex items-center sm:justify-cente my-5  gap-5 [&>*]:w-fit [&>*]:cursor-pointer [&>*]:bg-violet-800 [&>*]:text-white [&>*:hover]:bg-white [&>*:hover]:text-violet-800 [&>*]:border [&>*]:border-violet-800 [&>*]:rounded-lg [&>*]:px-2 [&>*]:py-1">
                             {/* LinkedIn */}
                             <div>

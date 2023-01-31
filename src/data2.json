@@ -383,7 +383,7 @@
                     "degree": "BSc. Computer Engineering",
                     "remark": "Excellent",
                     "startDate": "Oct 2016",
-                    "endDate": "July 2021",
+                    "endDate": "July 2021"
                 }
             ]
         },
@@ -712,7 +712,7 @@
         {
             "id": 4, 
             "name": "Farmino web app",
-            "desc": "Farmino is an aggricultural ecommerce web application that helps farmers sell their farm produse and also help buyers get the best of quality farm products easily",
+            "desc": "Farmino is an agricultural e-commerce web application that helps farmers sell their farm products and also help buyers get the best of quality farm products easily",
             "status": "completed",
             "demoImages": [
                 "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
