@@ -17,7 +17,7 @@ export default function Navbar(): JSX.Element {
             </NavLink>
         </li>
         <li>
-            <NavLink to="/Project" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
+            <NavLink to="/projects" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
                 <h2>Project</h2>
                 <TfiLayoutGrid2Alt />
             </NavLink>
