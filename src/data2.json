@@ -5,6 +5,7 @@
             "name": "Kimboh Lovette",
             "level": "Trainee",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://pbs.twimg.com/profile_images/1605890194200207360/4sRtb9LT_400x400.jpg",
             "coverImage": "https://pbs.twimg.com/profile_banners/1223873451775143938/1671709042/600x200",
             "mediaLinks": {
@@ -53,6 +54,7 @@
             "name": "Mbianou Bradon",
             "level": "Trainee",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://pbs.twimg.com/profile_images/1344692250308182016/dLKsLKYT_400x400.jpg",
             "coverImage": "https://pbs.twimg.com/profile_banners/1307572293313400832/1674906880/1500x500",
             "mediaLinks": {
@@ -98,6 +100,7 @@
             "name": "Desmond Teko",
             "level": "Intern",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://pbs.twimg.com/profile_images/1605901487120474113/LqAQjLKS_400x400.jpg",
             "coverImage": "https://pbs.twimg.com/profile_banners/1307572293313400832/1674906880/1500x500",
             "mediaLinks": {
@@ -143,6 +146,7 @@
             "name": "Samba Carlson",
             "level": "Trainee",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "",
             "coverImage": "",
             "mediaLinks": {
@@ -178,6 +182,7 @@
             "name": "Tima Gilbert",
             "level": "Intern",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://media.licdn.com/dms/image/C5603AQE2hmht2U2Q8Q/profile-displayphoto-shrink_200_200/0/1653564201443?e=1680739200&v=beta&t=XflcrGgz82DQISY-XRNWJ5BaI2ntSMmjHTpPGqXmJtY",
             "coverImage": "",
             "mediaLinks": {
@@ -213,6 +218,7 @@
             "name": "Akoneh Silas Magho",
             "level": "Intern",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/49173009_501234460367462_4920653914023395328_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFv362_p6S4v5-odwJER9AondzZ_B_Zfnud3Nn8H9l-e3BuCuV9QiweX6XbXjJlxBOxp7qJ09b43xS1bXp47wgj&_nc_ohc=OZFRWfrALYUAX8USJo8&_nc_ht=scontent-los2-1.xx&oh=00_AfBiT649LL0sXXdCwOYYCkCxliZBBripYzIvkDxQnUJTxA&oe=6400623A",
             "coverImage": "https://media.licdn.com/dms/image/D4E16AQHY2f864irKiQ/profile-displaybackgroundimage-shrink_350_1400/0/1666674212925?e=1680739200&v=beta&t=MNIxN_cWxHd4hpDc0U9Ig4GK4TplYCOxl8nGV4Y_4Fk",
             "mediaLinks": {
@@ -249,6 +255,7 @@
             "name": "Namkat Cedrick",
             "level": "Intern",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://pbs.twimg.com/profile_images/1613567656728166402/l6l0psFr_400x400.jpg",
             "coverImage": "https://pbs.twimg.com/profile_banners/1332713409524224001/1670314414/1500x500",
             "mediaLinks": {
@@ -284,6 +291,7 @@
             "name": "Nji Cliff",
             "level": "Intern",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://media.licdn.com/dms/image/D4E03AQGh9InbKbATyQ/profile-displayphoto-shrink_800_800/0/1673615370752?e=1680739200&v=beta&t=tvkKnV4kdIe_s-iEE1RxQ5_DJMZIkMSQv-q26lToI90",
             "coverImage": "https://media.licdn.com/dms/image/D4E16AQEP1A6dwIi2_A/profile-displaybackgroundimage-shrink_350_1400/0/1673613189274?e=1680739200&v=beta&t=9yCa1lKNXBNYzHc__VuzLB_6hfOBvVWseWWxGUseJWc",
             "mediaLinks": {
@@ -320,6 +328,7 @@
             "name": "Tambua Evaristus",
             "level": "Lead",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://pbs.twimg.com/profile_images/1162467418817650689/Pj-deS0s_400x400.jpg",
             "coverImage": "https://pbs.twimg.com/profile_banners/895914032137371648/1565988843/1500x500",
             "mediaLinks": {
@@ -356,6 +365,7 @@
             "name": "Asonganyi Rouclec",
             "level": "Lead",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "",
             "coverImage": "https://media.licdn.com/dms/image/C4E03AQEUr1lxvbD6rw/profile-displayphoto-shrink_200_200/0/1658455043165?e=1680739200&v=beta&t=QlYu7UZAqrpYAOj2Z9Djrq6G4MlOJK03Tn6wqAjHBPk",
             "mediaLinks": {
@@ -392,6 +402,7 @@
             "name": "Chu Edwin",
             "level": "Lead",
             "dept": "Software Developer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03ET83ACQP-15f866e3fa7d-512",
             "coverImage": "",
             "mediaLinks": {
@@ -428,6 +439,7 @@
             "name": "Estella Shembom",
             "level": "Lead",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://media.licdn.com/dms/image/C5603AQEm1O2CbdOH5w/profile-displayphoto-shrink_800_800/0/1619209573030?e=1680739200&v=beta&t=1uKV0u7CiF_NOTrQHnjuY-15JClEVzzgnk51lYc-aHo",
             "coverImage": "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/46007479_619034835219550_8414745491631243264_n.jpg",
             "mediaLinks": {
@@ -466,6 +478,7 @@
             "name": "Eyong Vannisia",
             "level": "Trainee",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U047RRRU5FG-4ce96f908612-512",
             "coverImage": "",
             "mediaLinks": {
@@ -503,6 +516,7 @@
             "name": "Olive Tonsi",
             "level": "Trainee",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U048BAFECTB-994a991a32f4-512",
             "coverImage": "",
             "mediaLinks": {
@@ -540,6 +554,7 @@
             "name": "Miriamlee Vagansee",
             "level": "Intern",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03UBFUEJKU-770c927c1cd3-512",
             "coverImage": "",
             "mediaLinks": {
@@ -577,6 +592,7 @@
             "name": "Bill Elton",
             "level": "Lead",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U038KB4RGQY-bf6ab068d77c-512",
             "coverImage": "",
             "mediaLinks": {
@@ -614,6 +630,7 @@
             "name": "Amin Jafferson",
             "level": "Lead",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03624F97DL-72759fdbc566-512",
             "coverImage": "https://pbs.twimg.com/profile_banners/1017573841047031813/1558950133/1500x500",
             "mediaLinks": {
@@ -651,6 +668,7 @@
             "name": "Bernard Bassah",
             "level": "Intern",
             "dept": "Designer",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03BW1YN3J6-ac0a0ed41491-512",
             "coverImage": "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/139584416_1063419350840068_5487550669466117168_n.jpg?stp=dst-jpg_p720x720&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeH9HEHguDaixw-A9JrRBnCyFqJTz0vBDr4WolPPS8EOvpz6untNxSqW2YJAKT2Wa6_qncSsW9VHJAx7cr8Eqmzn&_nc_ohc=CGMz9RKeunQAX-wEY09&_nc_ht=scontent-los2-1.xx&oh=00_AfAjfjKO8uX3xdp9hnEZKSOEitxqMAb2qFxoNtyjIsE3vg&oe=6400745F",
             "mediaLinks": {

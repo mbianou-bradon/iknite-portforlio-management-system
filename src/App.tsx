@@ -50,7 +50,7 @@ const router = createBrowserRouter (
 
 function App() {
   return (
-    <div className="App text-slate-900 selection:text-white selection:bg-violet-600">
+    <div className="App text-slate-900 selection:text-white selection:bg-violet-600 px-2 md:px-4">
     
       <RouterProvider router={router} />
     </div>
