@@ -1,4 +1,5 @@
 import {AiFillStar} from "react-icons/ai"
+import { Link } from "react-router-dom"
 import { Profile } from "../dataTypes"
 
 export default function Engineer(props:{ person: Profile}){
@@ -23,7 +24,11 @@ export default function Engineer(props:{ person: Profile}){
                             <h2 className="engineer__description text-xs w-[90%]">{props.person.description}</h2>
                         </div>
                     </div>
-                    <div className="view_more w-fit mx-4 px-5 py-1.5 text-sm border border-violet-800 cursor-pointer bg-violet-800 text-white hover:text-violet-800 hover:bg-white active:scale-95 rounded-lg"><h2>View More</h2></div>
+                    <div className="view_more w-fit mx-4 px-5 py-1.5 text-sm border border-violet-800 cursor-pointer bg-violet-800 text-white hover:text-violet-800 hover:bg-white active:scale-95 rounded-lg">
+                        
+                        <Link to={`/members/${props.person.id}`}>View More</Link>
+
+                    </div>
                 </div>
             </div>
     )

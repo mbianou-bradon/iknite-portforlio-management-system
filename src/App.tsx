@@ -34,11 +34,11 @@ const router = createBrowserRouter (
         { path: '/', element: <Home/>},
         { path: '/projects', element: <Project />},
         { path:'members', element:  <Members/>},
-        { path: '/members/profile', element: <Profile/>,
+        { path: '/members/:memberId', element: <Profile/>,
           children: [
-            { path: '/members/profile', element: <Education />},
-            { path: '/members/profile/contributions', element: <ProjectAndContribution />},
-            { path: '/members/profile/contact', element: <Contact />}
+            { path: '/members/:memberId', element: <Education />},
+            { path: '/members/:memberId/contributions', element: <ProjectAndContribution />},
+            { path: '/members/:memberId /contact', element: <Contact />}
           ]
         },
 

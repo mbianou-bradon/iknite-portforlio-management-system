@@ -1,5 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import members from "../data2.json"
 import {IoMdAdd, IoMdSearch} from "react-icons/io"
+import EngineerCard from '../components/EngineerCard'
+import { Profile } from '../dataTypes'
 
 
 export default function Members() {
@@ -25,6 +29,18 @@ export default function Members() {
         </div>
       </header>
 
+      {/* Link of all Members */}
+        <div className="members">
+          {
+            members.map((member: Profile) => {
+
+              return <EngineerCard key = {member.id} person = {member}/>
+            })
+          }
+
+
+
+        </div>
 
     </div>
   )
