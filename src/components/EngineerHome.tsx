@@ -1,35 +1,44 @@
+import { members } from "../data2"
+import { ProfileType } from "../dataTypes"
 import EngineerCard from "./EngineerCard"
 
-const HomeEngineerData = [
-    {
-        name: "Tambua Evaristus",
-        position: "Lead Software Engineer",
-        picture: "",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    },
-    {
-        name: "Chu Edwin",
-        position: "Lead Software Engineer",
-        picture: "",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    },
-    {
-        name: "Asonganyi Roulec",
-        position: "Lead Software Engineer",
-        picture: "",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    },
-    {
-        name: "Tambua Evaristus",
-        position: "Lead Software Engineer",
-        picture: "",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    }
-]
+let engineers: ProfileType[] = []
+
+ engineers[1] = members[1]
+ engineers[2] = members[2]
+ engineers[3] = members[6]
+ engineers[4] = members[8]
+
+// const HomeEngineerData = [
+//     {
+//         name: "Tambua Evaristus",
+//         position: "Lead Software Engineer",
+//         picture: "",
+//         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
+//         rating: ""
+//     },
+//     {
+//         name: "Chu Edwin",
+//         position: "Lead Software Engineer",
+//         picture: "",
+//         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
+//         rating: ""
+//     },
+//     {
+//         name: "Asonganyi Roulec",
+//         position: "Lead Software Engineer",
+//         picture: "",
+//         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
+//         rating: ""
+//     },
+//     {
+//         name: "Tambua Evaristus",
+//         position: "Lead Software Engineer",
+//         picture: "",
+//         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
+//         rating: ""
+//     }
+// ]
 
 export default function(){
 
@@ -42,7 +51,7 @@ export default function(){
 
             <div className="flex items-center gap-3 [&>*:hover]:bg-slate-900 [&>*:hover]:text-white mx-8">
                 {
-                    HomeEngineerData.map((engineer) => {
+                    engineers.map((engineer) => {
                         return (
                         <EngineerCard person = {engineer}/>
                         )

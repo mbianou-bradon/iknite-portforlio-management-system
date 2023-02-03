@@ -8,7 +8,7 @@
 
 import { Key } from "react"
 
-export interface Profile {
+export interface ProfileType {
     id: Key | null | undefined
     name: string,
     level: string,
@@ -16,25 +16,28 @@ export interface Profile {
     bio?: string,
     profileImage?: string,
     coverImage?: string,
-    mediaLink?: {
+    mediaLinks?: {
         facebook : string,
         twitter : string,
         github : string,
-        linkedIn : string
+        linkedin : string,
+        instagram?: string,
+        tiktok?: string
     },
-    contact : {
-        emails : [],
-        phones : [],
-        addresses : []
+    contacts? : {
+        emails : string[],
+        phones : string[],
+        addresses : string[]
     },
-    contributions : [],
-    education : [{
-        instution : string,
+    contributions? : number[],
+    education? : {
+        institution : string,
         degree : string,
-        remark : string,
-        yearStart : number,
-        yearEnd : number
-    }]
+        startDate : string,
+        endDate : string,
+        remark? : string,
+       
+    }[]
 
 }
 

@@ -1,32 +1,14 @@
 import DesignerCard from "./DesignerCard"
+import {members} from "../data2"
+import { ProfileType } from "../dataTypes"
 
+let designers: ProfileType[] = []
 
-const HomeDesignerData = [
-    {
-        name: "Bill-Elton",
-        position: "Lead UI/UX Designer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    },
-    {
-        name: "Bill-Elton",
-        position: "Lead UI/UX Designer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    },
-    {
-        name: "Bill-Elton",
-        position: "Lead UI/UX Designer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    },
-    {
-        name: "Bill-Elton",
-        position: "Lead UI/UX Designer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, harum!",
-        rating: ""
-    }
-]
+ designers[1] = members[16]
+ designers[2] = members[15]
+ designers[3] = members[14]
+ designers[4] = members[13]
+
 
 export default function(){
     return(
@@ -37,7 +19,7 @@ export default function(){
 
             <div className="flex items-center gap-3 [&>*]:border-[#ff4f5b] [&>*:hover]:bg-slate-900 [&>*:hover]:text-white mx-8">
                 {
-                    HomeDesignerData.map((designer) => {
+                    designers.map((designer) => {
                         return (
                         <DesignerCard person={designer}/>
                         )

@@ -1,5 +1,6 @@
-{
-    "members": [
+import { ProfileType } from "./dataTypes"
+
+export  const members:ProfileType[] = [
         {
             "id": 1,
             "name": "Kimboh Lovette",
@@ -512,7 +513,7 @@
             ]
         },
         {
-            "id":13,
+            "id":14,
             "name": "Olive Tonsi",
             "level": "Trainee",
             "dept": "Designer",
@@ -550,7 +551,7 @@
             ]
         },
         {
-            "id":14,
+            "id":15,
             "name": "Miriamlee Vagansee",
             "level": "Intern",
             "dept": "Designer",
@@ -588,7 +589,7 @@
             ]
         },
         {
-            "id":15,
+            "id":16,
             "name": "Bill Elton",
             "level": "Lead",
             "dept": "Designer",
@@ -626,7 +627,7 @@
             ]
         },
         {
-            "id":15,
+            "id":17,
             "name": "Amin Jafferson",
             "level": "Lead",
             "dept": "Designer",
@@ -664,7 +665,7 @@
             ]
         },
         {
-            "id":16,
+            "id":18,
             "name": "Bernard Bassah",
             "level": "Intern",
             "dept": "Designer",
@@ -701,8 +702,9 @@
                 }
             ]
         }
-    ],
-    "projects":[
+    ]
+
+    export const projects =[
         {
             "id": 1, 
             "name": "Adobe Homepage Clone",
@@ -775,7 +777,6 @@
             ],
             "contributors": [1, 2, 4]
         }
-    ],
-    "aboutIknite": {},
-    "events":[]
-}
+    ]
+    // "aboutIknite": {},
+    // "events":[]

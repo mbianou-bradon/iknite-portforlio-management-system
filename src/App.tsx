@@ -1,5 +1,4 @@
-import React from 'react';
-import { createBrowserRouter, Routes, Route, Outlet, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
 import Profile from './components/Profile';
 import Navbar from './components/Navbar';
@@ -38,7 +37,7 @@ const router = createBrowserRouter (
           children: [
             { path: '/members/:memberId', element: <Education />},
             { path: '/members/:memberId/contributions', element: <ProjectAndContribution />},
-            { path: '/members/:memberId /contact', element: <Contact />}
+            { path: '/members/:memberId/contact', element: <Contact />}
           ]
         },
 
