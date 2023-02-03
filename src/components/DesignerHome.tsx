@@ -1,6 +1,7 @@
 import DesignerCard from "./DesignerCard"
 import {members} from "../data2"
 import { ProfileType } from "../dataTypes"
+import { Link } from "react-router-dom"
 
 let designers: ProfileType[] = []
 
@@ -12,12 +13,12 @@ let designers: ProfileType[] = []
 
 export default function(){
     return(
-        <div className="px-4 py-10 bg-[#ff4f5b] min-h-screen">
-            <div className="designer text-2xl font-semibold py-2 px-4 bg-[#ff4f5b] text-white rounded w-fit my-5">
+        <div className="px-4 py-10 bg-[#ff4f5b] xl:min-h-screen">
+            <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 bg-[#ff4f5b] text-white rounded w-fit my-5">
                 <h2>Senior Designers</h2>
             </div>
 
-            <div className="flex items-center gap-3 [&>*]:border-[#ff4f5b] [&>*:hover]:bg-slate-900 [&>*:hover]:text-white mx-8">
+            <div className="flex flex-wrap items-center gap-3 [&>*]:border-[#ff4f5b] [&>*:hover]:bg-slate-900 [&>*:hover]:text-white sm:mx-8">
                 {
                     designers.map((designer) => {
                         return (
@@ -26,6 +27,8 @@ export default function(){
                     })
                 }
             </div>
+
+            <div className="w-fit px-6 py-2 cursor-pointer mx-auto mt-12 shadow-sm shadow-slate-900 bg-[#ff4f5b] hover:bg-white text-white hover:text-[#ff4f5b] border border-[#ff4f5b] rounded-lg active:scale-95"><Link to="/members">View all</Link></div>
         </div>
     )
 }

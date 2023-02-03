@@ -148,7 +148,7 @@ export  const members:ProfileType[] = [
             "level": "Trainee",
             "dept": "Software Developer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
-            "profileImage": "",
+            "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U047C39A7RV-6e61e6215151-512",
             "coverImage": "",
             "mediaLinks": {
                 "facebook": "https://www.facebook.com/profile.php?id=100009005566882",
@@ -367,7 +367,7 @@ export  const members:ProfileType[] = [
             "level": "Lead",
             "dept": "Software Developer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
-            "profileImage": "",
+            "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03FLGJQF4H-3c649e1ebc3e-512",
             "coverImage": "https://media.licdn.com/dms/image/C4E03AQEUr1lxvbD6rw/profile-displayphoto-shrink_200_200/0/1658455043165?e=1680739200&v=beta&t=QlYu7UZAqrpYAOj2Z9Djrq6G4MlOJK03Tn6wqAjHBPk",
             "mediaLinks": {
                 "facebook": "https://www.facebook.com/asonganyi.rouclec.16",
