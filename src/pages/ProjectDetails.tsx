@@ -12,25 +12,22 @@ export default function ProjectDetails(){
 
 
     return(
-        <div className="px-4 sm:px-10">
+        <div className="px-4 sm:px-10 mt-10">
             <div>
-                <div className="h-[12rem] bg-rose-500 rounded mb-5">
-                    <img src={project.demoImages[0]} alt="" />
-                </div>
-
+               
                 <div>
                     <div>
-                        <h1 className="project_title text-5xl font-bold mb-4">{project.title}</h1>
+                        <h1 className="project_title text-5xl font-bold mb-10 w-4/6 leading-[3.5rem]">{project.title}</h1>
                         <p className="project_description md:w-4/5">{project.desc}</p>
                     </div>
                     
                     {
-                    <div className="flex flex-wrap gap-5 my-5">
+                    <div className="flex flex-wrap gap-5 my-10">
                         {
                             demoImages.map(projectImage =>{
                                 return(
-                                    <div className="w-full md:w-[20rem] h-[10rem] md:h-[20rem] bg-rose-500 rounded">
-                                        <img src={projectImage} alt="" className="h-full object-cover"/>
+                                    <div className="w-full md:w-[20rem] h-[10rem] md:h-[20rem] bg-rose-500 border-rose-500 p-0.5 rounded hover:scale-110">
+                                        <img src={projectImage} alt="" className="h-full object-cover object-center w-full"/>
                                     </div>
                                 )
                             })

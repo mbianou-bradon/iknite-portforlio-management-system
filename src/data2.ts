@@ -149,7 +149,7 @@ export  const members:ProfileType[] = [
             "dept": "Software Developer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U047C39A7RV-6e61e6215151-512",
-            "coverImage": "",
+            "coverImage": "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/274240745_103816515584654_1149995987723273350_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGJMr0zZHO7CyW4AhCl1MErkanEkMJwfw6RqcSQwnB_Dkuc29SnWn9YuWkCwkRfEtVs3bcqqkVm0_ZB5Y5IAKq8&_nc_ohc=bfzpD9F1v84AX8TzfrD&_nc_ht=scontent-lis1-1.xx&oh=00_AfBaXsKsLs2qP8hiSO9jP-fi3wc9xGFR8H-ZLGBvloV72Q&oe=63E695D6",
             "mediaLinks": {
                 "facebook": "https://www.facebook.com/profile.php?id=100009005566882",
                 "github": "https://github.com/sambacarlson",
@@ -185,7 +185,7 @@ export  const members:ProfileType[] = [
             "dept": "Software Developer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://media.licdn.com/dms/image/C5603AQE2hmht2U2Q8Q/profile-displayphoto-shrink_200_200/0/1653564201443?e=1680739200&v=beta&t=XflcrGgz82DQISY-XRNWJ5BaI2ntSMmjHTpPGqXmJtY",
-            "coverImage": "",
+            "coverImage": "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/274240745_103816515584654_1149995987723273350_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGJMr0zZHO7CyW4AhCl1MErkanEkMJwfw6RqcSQwnB_Dkuc29SnWn9YuWkCwkRfEtVs3bcqqkVm0_ZB5Y5IAKq8&_nc_ohc=bfzpD9F1v84AX8TzfrD&_nc_ht=scontent-lis1-1.xx&oh=00_AfBaXsKsLs2qP8hiSO9jP-fi3wc9xGFR8H-ZLGBvloV72Q&oe=63E695D6",
             "mediaLinks": {
                 "facebook": "https://www.facebook.com/profile.php?id=100009005566882",
                 "github": "https://github.com/I-Frostbyte",
@@ -405,7 +405,7 @@ export  const members:ProfileType[] = [
             "dept": "Software Developer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03ET83ACQP-15f866e3fa7d-512",
-            "coverImage": "",
+            "coverImage": "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/274240745_103816515584654_1149995987723273350_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGJMr0zZHO7CyW4AhCl1MErkanEkMJwfw6RqcSQwnB_Dkuc29SnWn9YuWkCwkRfEtVs3bcqqkVm0_ZB5Y5IAKq8&_nc_ohc=bfzpD9F1v84AX8TzfrD&_nc_ht=scontent-lis1-1.xx&oh=00_AfBaXsKsLs2qP8hiSO9jP-fi3wc9xGFR8H-ZLGBvloV72Q&oe=63E695D6",
             "mediaLinks": {
                 "facebook": "",
                 "github": "",
@@ -481,7 +481,7 @@ export  const members:ProfileType[] = [
             "dept": "Designer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U047RRRU5FG-4ce96f908612-512",
-            "coverImage": "",
+            "coverImage": "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/274240745_103816515584654_1149995987723273350_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGJMr0zZHO7CyW4AhCl1MErkanEkMJwfw6RqcSQwnB_Dkuc29SnWn9YuWkCwkRfEtVs3bcqqkVm0_ZB5Y5IAKq8&_nc_ohc=bfzpD9F1v84AX8TzfrD&_nc_ht=scontent-lis1-1.xx&oh=00_AfBaXsKsLs2qP8hiSO9jP-fi3wc9xGFR8H-ZLGBvloV72Q&oe=63E695D6",
             "mediaLinks": {
                 "facebook": "",
                 "github": "",
@@ -519,7 +519,7 @@ export  const members:ProfileType[] = [
             "dept": "Designer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U048BAFECTB-994a991a32f4-512",
-            "coverImage": "",
+            "coverImage": "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/274240745_103816515584654_1149995987723273350_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGJMr0zZHO7CyW4AhCl1MErkanEkMJwfw6RqcSQwnB_Dkuc29SnWn9YuWkCwkRfEtVs3bcqqkVm0_ZB5Y5IAKq8&_nc_ohc=bfzpD9F1v84AX8TzfrD&_nc_ht=scontent-lis1-1.xx&oh=00_AfBaXsKsLs2qP8hiSO9jP-fi3wc9xGFR8H-ZLGBvloV72Q&oe=63E695D6",
             "mediaLinks": {
                 "facebook": "https://www.facebook.com/olivie.tonci",
                 "github": "",
@@ -557,7 +557,7 @@ export  const members:ProfileType[] = [
             "dept": "Designer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U03UBFUEJKU-770c927c1cd3-512",
-            "coverImage": "",
+            "coverImage": "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/274240745_103816515584654_1149995987723273350_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGJMr0zZHO7CyW4AhCl1MErkanEkMJwfw6RqcSQwnB_Dkuc29SnWn9YuWkCwkRfEtVs3bcqqkVm0_ZB5Y5IAKq8&_nc_ohc=bfzpD9F1v84AX8TzfrD&_nc_ht=scontent-lis1-1.xx&oh=00_AfBaXsKsLs2qP8hiSO9jP-fi3wc9xGFR8H-ZLGBvloV72Q&oe=63E695D6",
             "mediaLinks": {
                 "facebook": "",
                 "github": "",
@@ -595,7 +595,7 @@ export  const members:ProfileType[] = [
             "dept": "Designer",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur tempore ut, libero debitis perferendis?",
             "profileImage": "https://ca.slack-edge.com/T034UBTL0HZ-U038KB4RGQY-bf6ab068d77c-512",
-            "coverImage": "",
+            "coverImage": "https://www.facebook.com/photo/?fbid=147816334520426&set=a.147816327853760",
             "mediaLinks": {
                 "facebook": "https://www.facebook.com/ndohbillelton",
                 "github": "",
@@ -783,9 +783,12 @@ export  const members:ProfileType[] = [
             "desc": "Have you ever wondered where all your money is going to ? Track all your expenses and spend within a budget using the Bohikor App",
             "status": "Completed",
             "demoImages": [
-                ""
+                "https://media.licdn.com/dms/image/C4D22AQELyCLnYpGG9w/feedshare-shrink_800/0/1640524064362?e=2147483647&v=beta&t=RqoKibdlXSTLJ8TE5e9r-ZnZBIo0bVh85rGGjDiK4yo",
+                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
+                "https://media.licdn.com/dms/image/C4D22AQGPZ_uJDhUgeg/feedshare-shrink_2048_1536/0/1635180551524?e=2147483647&v=beta&t=ZDPsSbJb8cixNEzn6d3-8pwWmmpaCtUSPLFCaiADdVs",
+                "https://pbs.twimg.com/media/FEE1MuvXoAQPhaP?format=jpg&name=4096x4096"
             ],
-            "contributors": []
+            "contributors": [5,6,8,6]
         }
     ]
     // "aboutIknite": {},

@@ -7,12 +7,12 @@ export default function ProjectComponent(props : { project : Project}) {
     let desc = props.project.desc;
     let title = props.project.title
     let contributions = props.project.contributors
-    if (desc.length > 10) {
-        desc = desc.slice(0,60) + "..."
+    if (desc.length > 20) {
+        desc = desc.slice(0,40) + "..."
     }
 
-    if (title.length > 20){
-        title = title.slice(0,21) + "..."
+    if (title.length > 16){
+        title = title.slice(0,18) + "..."
     }
 
   const  projectImages = props.project.demoImages

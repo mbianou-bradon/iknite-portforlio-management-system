@@ -13,7 +13,7 @@ export default function Profile(){
         <div className="w-full xl:min-h-screen lg:mb-20">
                <div className="w-[95%] md:w-[80%] mx-auto">
                     <div className="py-4 rounded-lg bg-purple-60">
-                         <div className="w-full h-[10rem] bg-red-500 rounded relative">
+                         <div className="w-full h-[14rem] bg-red-500 rounded relative">
                                 <img src={person.coverImage} alt="" className="w-full h-full rounded aspect-video object-cover object-center"/>
                               <div className="w-40 h-40 bg-violet-800 rounded-full border border-violet-800 absolute left-[5%] -bottom-10"><img src={person.profileImage} alt="" className="rounded-full object-center object-cover"/></div>
                          </div>

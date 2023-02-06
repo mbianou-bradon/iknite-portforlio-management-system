@@ -26,7 +26,7 @@ export default function Projects() {
         </div>
       </header>
 
-      <div className="flex flex-wrap min-h-max gap-5 [&>*]:w-fit my-6">
+      <div className="flex flex-wrap min-h-min gap-5 my-6">
           {
             projects.map((project) => {
               return (<ProjectComponent key = {project.id} project={project} />)
