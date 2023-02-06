@@ -3,13 +3,14 @@ import Home from './pages/Home';
 import Profile from './components/Profile';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Education from './components/Education';
-import ProjectAndContribution from './components/ProjectAndContribution';
-import Contact from './components/Contact';
+import Education from './components/ProfileDetails/Education';
+import ProjectAndContribution from './components/ProfileDetails/ProjectAndContribution';
+import Contact from './components/ProfileDetails/Contact';
 import Error from './pages/Error';
 import Projects from './pages/Projects';
 import Members from './pages/Members';
 import About from './pages/About';
+import ProjectDetails from './pages/ProjectDetails';
 
 
 const MyApp = ():JSX.Element => {
@@ -32,6 +33,7 @@ const router = createBrowserRouter (
       children: [
         { path: '/', element: <Home/>},
         { path: '/projects', element: <Projects />},
+        { path: '/projects/:projectId', element: <ProjectDetails />},
         { path:'members', element:  <Members/>},
         { path: '/members/:memberId', element: <Profile/>,
           children: [

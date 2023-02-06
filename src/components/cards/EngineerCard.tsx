@@ -1,6 +1,6 @@
 import {AiFillStar} from "react-icons/ai"
 import { Link } from "react-router-dom"
-import { ProfileType } from "../dataTypes"
+import { ProfileType } from "../../dataTypes"
 
 export default function Engineer(props:{ person: ProfileType}){
 

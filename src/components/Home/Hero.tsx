@@ -1,4 +1,4 @@
-import home from '../assets/Home.jpg'
+import home from '/home/bradon/Desktop/iknite-portfolio-management-system/src/assets/Home.jpg'
 
 export default function Hero () {
     return (

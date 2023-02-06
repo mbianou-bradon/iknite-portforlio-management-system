@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {IoMdAdd, IoMdSearch} from "react-icons/io"
-import EngineerCard from '../components/EngineerCard'
+import EngineerCard from '../components/cards/EngineerCard'
 import { ProfileType } from '../dataTypes'
 import {members} from "../data2"
 

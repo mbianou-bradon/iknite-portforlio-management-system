@@ -1,6 +1,6 @@
-import DesignerCard from "./DesignerCard"
-import {members} from "../data2"
-import { ProfileType } from "../dataTypes"
+import DesignerCard from "../cards/DesignerCard"
+import {members} from "../../data2"
+import { ProfileType } from "../../dataTypes"
 import { Link } from "react-router-dom"
 
 let designers: ProfileType[] = []
@@ -22,7 +22,7 @@ export default function(){
                 {
                     designers.map((designer) => {
                         return (
-                        <DesignerCard person={designer}/>
+                        <DesignerCard key = {designer.id} person={designer}/>
                         )
                     })
                 }

@@ -1,4 +1,4 @@
-import {News} from "../dataTypes"
+import {News} from "../../dataTypes"
 
 export default function NewsCard (prop:{ news: News }){
     return (

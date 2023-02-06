@@ -4,8 +4,8 @@ import {BsPhoneFill} from "react-icons/bs"
 import { FaFacebookF , FaTwitter, FaLinkedinIn, FaTiktok } from "react-icons/fa"
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai"
 import { useParams } from "react-router-dom"
-import { members } from "../data2"
-import { ProfileType } from "../dataTypes"
+import { members } from "../../data2"
+import { ProfileType } from "../../dataTypes"
 
 export default function Contact(){
     

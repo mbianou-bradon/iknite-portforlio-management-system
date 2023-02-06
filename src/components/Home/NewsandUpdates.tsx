@@ -1,5 +1,5 @@
 
-import NewsCard from "./NewsCard"
+import NewsCard from "../cards/NewsCard"
 
 const  newsData: { 
     newsTitle: string, 

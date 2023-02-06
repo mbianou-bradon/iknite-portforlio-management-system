@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { members } from "../data2";
-import { ProfileType } from "../dataTypes";
+import { members } from "../../data2";
+import { ProfileType } from "../../dataTypes";
 
 
 

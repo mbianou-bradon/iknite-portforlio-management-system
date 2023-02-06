@@ -29,7 +29,7 @@ export default function Projects() {
       <div className="flex flex-wrap min-h-max gap-5 [&>*]:w-fit my-6">
           {
             projects.map((project) => {
-              return (<ProjectComponent project={project} />)
+              return (<ProjectComponent key = {project.id} project={project} />)
             })
           }
       </div>
