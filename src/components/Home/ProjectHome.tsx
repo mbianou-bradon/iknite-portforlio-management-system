@@ -6,13 +6,13 @@ import { Link } from "react-router-dom"
 
 export default function ProjectHome(){
     let subProject: Project[] = []
-    subProject[0] = projects[1]
-    subProject[1] = projects[3]
+    subProject[0] = projects[6]
+    subProject[1] = projects[4]
     subProject[2] = projects[5]
-    subProject[3] = projects[4]
+    subProject[3] = projects[2]
 
     return (
-        <div className="px-4 py-10 bg-violet-700 xl:min-h-screen">
+        <div className="px-4 py-10 bg-violet-700 xl:min-h-screen ">
             <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 bg-violet-800 text-white w-fit rounded-sm sm:mt-8 mb-12">
                 <h2>Key Projects</h2>
             </div>

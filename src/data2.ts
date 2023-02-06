@@ -776,6 +776,16 @@ export  const members:ProfileType[] = [
                 "https://i0.wp.com/iknite.studio/wp-content/uploads/2022/07/UIUX.png?w=1080"
             ],
             "contributors": [1, 2, 4]
+        },
+        {
+            "id": 7,
+            "title": "Bohikor",
+            "desc": "Have you ever wondered where all your money is going to ? Track all your expenses and spend within a budget using the Bohikor App",
+            "status": "Completed",
+            "demoImages": [
+                ""
+            ],
+            "contributors": []
         }
     ]
     // "aboutIknite": {},

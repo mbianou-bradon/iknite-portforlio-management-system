@@ -35,7 +35,7 @@ export default function ProjectComponent(props : { project : Project}) {
                         </p>
                     </div>
 
-                    <div className="text-white bg-violet-800 px-4 py-2 hover:text-violet-800 hover:bg-white rounded-lg w-fit border border-violet-800 cursor-pointer active:scale-95"><Link to={ `/members/${props.project.id}` }>Details</Link></div>
+                    <div className="text-white bg-violet-800 px-4 py-2 hover:text-violet-800 hover:bg-white rounded-lg w-fit border border-violet-800 cursor-pointer active:scale-95"><Link to={ `/projects/${props.project.id}` }>Details</Link></div>
                     <div className="flex gap-1 absolute bottom-4 right-4">
                        <div className="rounded-full text-violet-700 border border-violet-700 w-5 h-5 flex items-center justify-center"><IoIosPerson/></div>
                        <p className="text-sm">{contributions.length}</p> 

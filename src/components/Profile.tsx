@@ -1,8 +1,4 @@
-import {MdEmail, MdSummarize} from "react-icons/md"
-import {RiUserLocationFill} from "react-icons/ri"
-import {BsPhoneFill} from "react-icons/bs"
-import { FaFacebookF , FaTwitter, FaLinkedinIn } from "react-icons/fa"
-import { AiFillInstagram } from "react-icons/ai"
+import {MdSummarize} from "react-icons/md"
 import { NavLink, Outlet, useParams } from "react-router-dom"
 import { ProfileType } from "../dataTypes"
 import { members } from "../data2"
@@ -12,7 +8,6 @@ export default function Profile(){
     const memberId = Number(useParams()['memberId']);
 
     const person: ProfileType = members.filter(member =>member.id ===memberId)[0]
-    console.log("From profile:",person)
 
     return(
         <div className="w-full xl:min-h-screen lg:mb-20">

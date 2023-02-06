@@ -16,7 +16,7 @@ import ProjectDetails from './pages/ProjectDetails';
 const MyApp = ():JSX.Element => {
 
   return (
-    <div>
+    <div className='[&_*]:transition-all [&_*]:ease-linear [&_*]:duration-200'>
       <Navbar/>
         <Outlet/>
       <Footer/>

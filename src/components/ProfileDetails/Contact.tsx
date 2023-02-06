@@ -39,14 +39,14 @@ export default function Contact(){
                         <h2>EMAIL ADDRESS</h2>
                             {emails &&
                             <div>
-                            {
-                                emails.map((email, key) =>{
-                                    return (
-                                    <p key={key}>{email}</p>
-                                    )
-                                } )
-                            }
-                         </div>
+                                {
+                                    emails.map((email, key) =>{
+                                        return (
+                                        <p key={key}>{email}</p>
+                                        )
+                                    } )
+                                }
+                            </div>
                         }
                             
                         
