@@ -18,14 +18,26 @@ export default function ProjectComponent(props : { project : Project}) {
   const  projectImages = props.project.demoImages
 
   let profile = projectImages[0]
+  let status = props.project.status
+
+  let color = `bg-green-500`
+
+  if (status === 'Active'){
+  
+       color = `bg-yellow-600`
+
+  }
 
 
   return (
+    
     <div className="shadow  ">
         <div className="w-full md:max-w-[18rem] bg-white hover:bg-slate-900 hover:text-white hover:shadow-sm rounded-lg border border-violet-800 overflow-hidden">
             <div className="relative">
-                <div className="project__img h-[10rem]">
+                <div className="project__img h-[10rem] relative">
                     <img src={profile} alt="" className="h-full w-full object-cover object-center"/>
+                    <div className={`absolute bottom-3 left-2 ${color} px-3 py-1 text-white text-xs rounded-full`}>{props.project.status}</div>
+                    
                 </div>
                 <div className="project__content px-4 py-5">
                     <div className="project__name text-xl font-semibold"><h2>{ title }</h2></div>

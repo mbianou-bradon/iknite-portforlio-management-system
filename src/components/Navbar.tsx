@@ -10,26 +10,26 @@ export default function Navbar(): JSX.Element {
       <div className="brand text-2xl text-violet-800">Space<span className="text-slate-900">In</span></div>
       <ul className="hidden md:flex gap-10 [&>*>a]:flex [&>*>a]:items-center [&>*>a]:gap-1 [&>*:hover]:text-violet-800 [&>*]:cursor-pointer">
         <li>
-            <NavLink to="/" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
+            <NavLink to="/" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900 hover:text-violet-800"}>
                 <h2>Home</h2>
                 <AiFillHome/>
             </NavLink>
         </li>
         <li>
-            <NavLink to="/projects" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
+            <NavLink to="/projects" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900 hover:text-violet-800"}>
                 <h2>Project</h2>
                 <TfiLayoutGrid2Alt />
             </NavLink>
         </li>
         <li>
-            <NavLink to="/members" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
+            <NavLink to="/members" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900 hover:text-violet-800"}>
                 <div></div>
                 <h2>Members</h2>
                 <TiGroup/>
             </NavLink>
         </li>
         <li>
-            <NavLink to="/About" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900"}>
+            <NavLink to="/About" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900 hover:text-violet-800"}>
                 <h2>About Iknite</h2>
                 <AiFillExclamationCircle/>
             </NavLink>

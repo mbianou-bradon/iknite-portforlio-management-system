@@ -1,6 +1,6 @@
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
-import Profile from './components/Profile';
+import Profile from './pages/Profile';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Education from './components/ProfileDetails/Education';
@@ -16,7 +16,7 @@ import ProjectDetails from './pages/ProjectDetails';
 const MyApp = ():JSX.Element => {
 
   return (
-    <div className='[&_*]:transition-all [&_*]:ease-linear [&_*]:duration-200'>
+    <div className='[&_*]:transition-all [&_*]:ease-linear [&_*]:duration-[170ms]'>
       <Navbar/>
         <Outlet/>
       <Footer/>
