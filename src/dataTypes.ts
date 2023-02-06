@@ -48,9 +48,10 @@ export interface News {
     datePublished: string
 }
 
-interface Project {
+export interface Project {
+    id: number,
     title: string
-    description: string
-    ProjectState?: boolean
-    ProjectImage?: []
+    desc: string
+    status?: string
+    demoImage?: string[]
 }

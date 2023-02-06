@@ -707,7 +707,7 @@ export  const members:ProfileType[] = [
     export const projects =[
         {
             "id": 1, 
-            "name": "Adobe Homepage Clone",
+            "title": "Adobe Homepage Clone",
             "desc": "A clone of the adobe website with html/css only",
             "status": "completed",
             "demoImages": [
@@ -719,7 +719,7 @@ export  const members:ProfileType[] = [
         },
         {
             "id": 2,
-            "name": "Besnik Dribble Design with Bootstrap",
+            "title": "Besnik Dribble Design with Bootstrap",
             "desc": "This project is a ui implementation of a dribble design with th HTML5, CSS3 and Bootstrap5.",
             "status": "completed",
             "demoImages": [
@@ -731,7 +731,7 @@ export  const members:ProfileType[] = [
         },
         {
             "id": 4, 
-            "name": "Farmino web app",
+            "title": "Farmino web app",
             "desc": "Farmino is an agricultural e-commerce web application that helps farmers sell their farm products and also help buyers get the best of quality farm products easily",
             "status": "completed",
             "demoImages": [
@@ -743,7 +743,7 @@ export  const members:ProfileType[] = [
         },
         {
             "id": 3 ,
-            "name": "Besnik Design Emplementation with TailwindCSS",
+            "title": "Besnik Design Emplementation with TailwindCSS",
             "desc": "This project is a ui implementation of a dribble design with th HTML5 and TailwindCSS only.",
             "status": "completed",
             "demoImages": [
@@ -755,7 +755,7 @@ export  const members:ProfileType[] = [
         },
         {
             "id": 5, 
-            "name": "Cliqets",
+            "title": "Cliqets",
             "desc": "A platform where you can host your events, book tickets for the event etc",
             "status": "Active",
             "demoImages": [
@@ -767,7 +767,7 @@ export  const members:ProfileType[] = [
         },
         {
             "id": 6,
-            "name": "Iknite Studio Official Website",
+            "title": "Iknite Studio Official Website",
             "desc": "Iknite Studio brings the best of your brand to the publice through Quality Web Aplications and Designs",
             "status": "Active",
             "demoImages": [

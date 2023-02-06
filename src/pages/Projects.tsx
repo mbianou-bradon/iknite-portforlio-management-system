@@ -1,8 +1,10 @@
 import React from 'react'
 import {IoMdAdd} from "react-icons/io"
+import { projects } from '../data2'
+import ProjectComponent from '../components/Project'
 
 
-export default function Project() {
+export default function Projects() {
   return (
     <div className="px-4 sm:px-8 min-h-screen">
       <header>
@@ -24,6 +26,13 @@ export default function Project() {
         </div>
       </header>
 
+      <div className="flex flex-wrap min-h-max gap-5 [&>*]:w-fit my-6">
+          {
+            projects.map((project) => {
+              return (<ProjectComponent project={project} />)
+            })
+          }
+      </div>
 
     </div>
   )

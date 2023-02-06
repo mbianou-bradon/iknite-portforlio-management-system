@@ -7,7 +7,7 @@ import Education from './components/Education';
 import ProjectAndContribution from './components/ProjectAndContribution';
 import Contact from './components/Contact';
 import Error from './pages/Error';
-import Project from './pages/Project';
+import Projects from './pages/Projects';
 import Members from './pages/Members';
 import About from './pages/About';
 
@@ -31,7 +31,7 @@ const router = createBrowserRouter (
       errorElement: <Error />,
       children: [
         { path: '/', element: <Home/>},
-        { path: '/projects', element: <Project />},
+        { path: '/projects', element: <Projects />},
         { path:'members', element:  <Members/>},
         { path: '/members/:memberId', element: <Profile/>,
           children: [

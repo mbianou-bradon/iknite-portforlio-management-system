@@ -1,4 +1,3 @@
-import React from 'react'
 import {AiFillHome, AiFillExclamationCircle} from "react-icons/ai"
 import {TiGroup} from "react-icons/ti"
 import {IoIosPerson, IoMdMenu} from "react-icons/io"
