@@ -24,9 +24,9 @@ export default function Engineer(props:{ person: ProfileType}){
                             <h2 className="engineer__description text-xs w-[90%]">{props.person.bio}</h2>
                         </div>
                     </div>
-                    <div className="view_more w-fit mx-4 px-5 py-1.5 text-sm border border-violet-800 cursor-pointer bg-violet-800 text-white hover:text-violet-800 hover:bg-white active:scale-95 rounded-lg">
+                    <div className="view_more relative w-fit mx-4 px-5 py-1.5 text-sm border border-violet-800 cursor-pointer bg-violet-800 text-white hover:text-violet-800 hover:bg-white active:scale-95 rounded-lg">
                         
-                        <Link to={`/members/${props.person.id}`}>View More</Link>
+                        <Link to={`/members/${props.person.id}`} className="w-full h-full">View More</Link>
 
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import { IoIosPerson } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { Project } from "../dataTypes"
+import { projects } from "../data2"
 
 export default function ProjectComponent(props : { project : Project}) {
     let desc = props.project.desc;
@@ -8,8 +9,6 @@ export default function ProjectComponent(props : { project : Project}) {
     let contributions = props.project.contributors
     if (desc.length > 10) {
         desc = desc.slice(0,60) + "..."
-
-        console.log(desc)
     }
 
     if (title.length > 20){
@@ -19,9 +18,6 @@ export default function ProjectComponent(props : { project : Project}) {
   const  projectImages = props.project.demoImages
 
   let profile = projectImages[0]
-
-
-
 
 
   return (

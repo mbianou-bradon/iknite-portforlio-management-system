@@ -1,7 +1,7 @@
 import React from 'react'
 import {IoMdAdd} from "react-icons/io"
 import { projects } from '../data2'
-import ProjectComponent from '../components/Project'
+import ProjectComponent from '../components/ProjectComponent'
 
 
 export default function Projects() {

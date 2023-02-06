@@ -49,7 +49,7 @@ export interface News {
 }
 
 export interface Project {
-    id: number,
+    id: Key | null | undefined
     title: string
     desc: string
     status?: string
