@@ -53,5 +53,6 @@ export interface Project {
     title: string
     desc: string
     status?: string
-    demoImage?: string[]
+    demoImages: string[]
+    contributors: number[]
 }
