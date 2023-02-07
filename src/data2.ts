@@ -735,9 +735,10 @@ export  const members:ProfileType[] = [
             "desc": "Farmino is an agricultural e-commerce web application that helps farmers sell their farm products and also help buyers get the best of quality farm products easily",
             "status": "completed",
             "demoImages": [
-                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
-                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
-                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small"
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/farmino1.png",
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/farmino2.png",
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/farmino3.png",
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/farmino4.png"
             ],
             "contributors": [1]
         },
@@ -747,9 +748,9 @@ export  const members:ProfileType[] = [
             "desc": "This project is a ui implementation of a dribble design with th HTML5 and TailwindCSS only.",
             "status": "completed",
             "demoImages": [
-                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
-                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
-                "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small"
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/besknik3.png",
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/besknik2.png",
+                "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/besknik1.png"
             ],
             "contributors": [1]
         },
