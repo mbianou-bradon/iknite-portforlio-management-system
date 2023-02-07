@@ -55,7 +55,7 @@ export default function Navbar(): JSX.Element {
 
       {/* Mobile menu */}
 
-      <div id="mobile-menu" className="hidden md:hidden absolute top-14 bg-white w-full h-screen">
+      <div id="mobile-menu" className="hidden md:hidden absolute top-14 bg-white w-full h-screen z-50">
           <ul className="flex flex-col gap-10 py-5 [&>*>a]:flex [&>*>a]:items-center [&>*>a]:gap-1 [&>*:hover]:text-violet-800 [&>*]:cursor-pointer">
               <li>
               <NavLink to="/" className={({isActive}) => isActive? "text-violet-800" : "text-slate-900 hover:text-violet-800"}>
