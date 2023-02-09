@@ -31,8 +31,8 @@ export default function ProjectComponent(props : { project : Project}) {
 
   return (
     
-    <div className="shadow  ">
-        <div className="w-full md:max-w-[18rem] bg-white hover:bg-slate-900 hover:text-white hover:shadow-sm rounded-lg border border-primary overflow-hidden">
+    <div className="shadow">
+        <div className="w-full sm:max-w-[18rem] bg-white hover:bg-slate-900 hover:text-white hover:shadow-sm rounded-lg border border-primary overflow-hidden">
             <div className="relative">
                 <div className="project__img h-[10rem] relative">
                     <img src={profile} alt="" className="h-full w-full object-cover object-center"/>

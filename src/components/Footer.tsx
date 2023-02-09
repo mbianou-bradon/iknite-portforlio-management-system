@@ -65,7 +65,7 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div className="text-xs text-center [&>*>span]:text-primary [&>*>span]:cursor-pointer [&>*>span:hover]:underline [&>*]:my-3">
+            <div className="text-xs text-center [&>*>span]:text-primary [&>*>span]:cursor-pointer [&>*>span]:underline [&>*>span:hover]:no-underline [&>*]:my-3">
                 <p>Our <span>Terms and Conditions</span> and <span>Private Policy</span></p>
                 <p className="text-slate-400">Copyright &copy; 2023, SpaceIn.org</p>
             </div>

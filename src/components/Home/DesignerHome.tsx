@@ -13,12 +13,12 @@ let designers: ProfileType[] = []
 
 export default function(){
     return(
-        <div className="px-4 py-10 bg-[#ff4f5b] xl:min-h-screen">
+        <div className="px-4 my-10 py-5 items-center xl:min-h-screen bg-secondary">
             <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 bg-[#ff4f5b] text-white rounded w-fit my-5">
                 <h2>Senior Designers</h2>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3 [&>*]:border-[#ff4f5b] [&>*:hover]:bg-slate-900 [&>*:hover]:text-white sm:mx-8">
+            <div className="flex flex-wrap items-center gap-5 [&>*:hover]:bg-slate-900 [&>*:hover]:text-white sm:mx-8">
                 {
                     designers.map((designer) => {
                         return (

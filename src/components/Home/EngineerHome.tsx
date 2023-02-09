@@ -19,7 +19,7 @@ export default function(){
                 <h2>Senior Developers</h2>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3 [&>*:hover]:bg-slate-900 [&>*:hover]:text-white sm:mx-8">
+            <div className="flex flex-wrap items-center gap-5 [&>*:hover]:bg-slate-900 [&>*:hover]:text-white sm:mx-8">
                 {
                     engineers.map((engineer) => {
                         return (

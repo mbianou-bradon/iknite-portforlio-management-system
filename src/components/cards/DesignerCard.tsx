@@ -5,7 +5,7 @@ import { ProfileType } from "../../dataTypes"
 export default function Designer(props:{ person: ProfileType}){
 
     return(
-            <div className="w-full max-w-[18rem] border border-[#ff605b] bg-white rounded-lg py-5">
+            <div className="w-full sm:max-w-[18rem] border border-[#ff605b] bg-white rounded-lg py-5">
                 <div>
                     <div className="w-20 h-20 rounded-full mx-4 p-0.5 bg-[#ff605b]">
                         <img src={props.person.profileImage} alt="" className="rounded-full object-cover object-center"/>
