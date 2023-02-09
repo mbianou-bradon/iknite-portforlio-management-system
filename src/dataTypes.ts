@@ -55,4 +55,5 @@ export interface Project {
     status?: string
     demoImages: string[]
     contributors: number[]
+    company : string
 }

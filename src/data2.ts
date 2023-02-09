@@ -715,7 +715,8 @@ export  const members:ProfileType[] = [
                 "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
                 "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small"
             ],
-            "contributors": [1, 2, 4]
+            "contributors": [1, 2, 4],
+            "company": "Iknite Space"
         },
         {
             "id": 2,
@@ -727,7 +728,8 @@ export  const members:ProfileType[] = [
                 "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small",
                 "https://pbs.twimg.com/media/Fa2Di9bWIAEYTtk?format=jpg&name=small"
             ],
-            "contributors": [1, 2, 4]
+            "contributors": [1, 2, 4],
+            "company": "Iknite Space"
         },
         {
             "id": 4, 
@@ -740,7 +742,8 @@ export  const members:ProfileType[] = [
                 "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/farmino3.png",
                 "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/farmino4.png"
             ],
-            "contributors": [1]
+            "contributors": [1],
+            "company": "Iknite Space"
         },
         {
             "id": 3 ,
@@ -752,7 +755,8 @@ export  const members:ProfileType[] = [
                 "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/besknik2.png",
                 "https://raw.githubusercontent.com/mbianou-bradon/iknite-portforlio-management-system/main/src/assets/besknik1.png"
             ],
-            "contributors": [1]
+            "contributors": [1],
+            "company": "Iknite Space"
         },
         {
             "id": 5, 
@@ -764,7 +768,8 @@ export  const members:ProfileType[] = [
                 "https://dev.cliqets.xyz/images/featureImg.svg",
                 "https://dev.cliqets.xyz/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1523580494863-6f3031224c94%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D870%26q%3D80&w=1920&q=75"
             ],
-            "contributors": [1, 2, 4]
+            "contributors": [1, 2, 4],
+            "company": "Iknite Studio"
         },
         {
             "id": 6,
@@ -776,7 +781,8 @@ export  const members:ProfileType[] = [
                 "https://i0.wp.com/iknite.studio/wp-content/uploads/2022/07/Website-design.png?w=1080",
                 "https://i0.wp.com/iknite.studio/wp-content/uploads/2022/07/UIUX.png?w=1080"
             ],
-            "contributors": [1, 2, 4]
+            "contributors": [1, 2, 4],
+            "company": "Iknite Studio"
         },
         {
             "id": 7,
@@ -789,7 +795,8 @@ export  const members:ProfileType[] = [
                 "https://media.licdn.com/dms/image/C4D22AQGPZ_uJDhUgeg/feedshare-shrink_2048_1536/0/1635180551524?e=2147483647&v=beta&t=ZDPsSbJb8cixNEzn6d3-8pwWmmpaCtUSPLFCaiADdVs",
                 "https://pbs.twimg.com/media/FEE1MuvXoAQPhaP?format=jpg&name=4096x4096"
             ],
-            "contributors": [5,6,8,6]
+            "contributors": [5,6,8,6],
+            "company": "Mountain Hub"
         }
     ]
     // "aboutIknite": {},
