@@ -32,7 +32,7 @@ export default function ProjectComponent(props : { project : Project}) {
   return (
     
     <div className="shadow  ">
-        <div className="w-full md:max-w-[18rem] bg-white hover:bg-slate-900 hover:text-white hover:shadow-sm rounded-lg border border-violet-800 overflow-hidden">
+        <div className="w-full md:max-w-[18rem] bg-white hover:bg-slate-900 hover:text-white hover:shadow-sm rounded-lg border border-primary overflow-hidden">
             <div className="relative">
                 <div className="project__img h-[10rem] relative">
                     <img src={profile} alt="" className="h-full w-full object-cover object-center"/>
@@ -47,9 +47,9 @@ export default function ProjectComponent(props : { project : Project}) {
                         </p>
                     </div>
 
-                    <div className="text-white bg-violet-800 px-4 py-2 hover:text-violet-800 hover:bg-white rounded-lg w-fit border border-violet-800 cursor-pointer active:scale-95"><Link to={ `/projects/${props.project.id}` }>Details</Link></div>
+                    <div className="text-white bg-primary px-4 py-2 hover:text-primary hover:bg-white rounded-lg w-fit border border-primary cursor-pointer active:scale-95"><Link to={ `/projects/${props.project.id}` }>Details</Link></div>
                     <div className="flex absolute bottom-4 right-4">
-                       <div className="px-2 py-1 text-violet-700 text-[0.5rem] shadow-sm shadow-slate-900 flex items-center justify-center">{ company }</div>
+                       <div className="px-2 py-1 text-primary text-[0.5rem] shadow-sm shadow-slate-900 flex items-center justify-center">{ company }</div>
                        
                     </div>
                 </div>

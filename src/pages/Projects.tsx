@@ -12,7 +12,7 @@ export default function Projects() {
         <div className="flex items-center justify-between flex-wrap gap-y-5">
             <div className="border rounded-full w-fit flex px-2 sm:px-4 py-1 text-sm sm:text-[1rem]">
               <label htmlFor="projectType">Project Type :</label>
-              <select name="projextType" id="" className="focus:outline-0 bg-transparent text-sm [&>*:hover]:bg-purple-600 min-w-0">
+              <select name="projextType" id="" className="focus:outline-0 bg-transparent text-sm [&>*:hover]:bg-primary min-w-0">
                 <option value=""></option>
                 <option value="all">All</option>
                 <option value="software">Software</option>
@@ -20,7 +20,7 @@ export default function Projects() {
               </select>
             </div>
 
-            <div className="w-fit px-6 py-2 bg-violet-800 text-white rounded-lg hover:bg-white hover:text-violet-800 border border-violet-800 cursor-pointer active:scale-95 select-none">
+            <div className="w-fit px-6 py-2 bg-primary text-white rounded-lg hover:bg-white hover:text-primary border border-primary cursor-pointer active:scale-95 select-none">
               <h2 className="flex items-center gap-1">Add Project <div><IoMdAdd/></div></h2>
             </div>
         </div>

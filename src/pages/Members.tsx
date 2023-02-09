@@ -21,11 +21,11 @@ export default function Members() {
             </div>
 
             <div className="[&>*]:px-6 [&>*]:py-2 [&>*]:border [&>*]:w-fit [&>*]:rounded-lg [&>*]:cursor-pointer flex flex-wrap gap-3">
-              <div className="hover:border-violet-800 hover:bg-violet-800 hover:text-white"><h2>Softwares</h2></div>
+              <div className="hover:border-primary hover:bg-primary hover:text-white"><h2>Softwares</h2></div>
               <div className="hover:border-[#ff4f5b] hover:bg-[#ff4f5b] hover:text-white"><h2>Designers</h2></div>
             </div>
           </div>
-            <div className="w-fit px-6 py-2 bg-violet-800 text-white rounded-lg hover:bg-white hover:text-violet-800 border border-violet-800 cursor-pointer active:scale-95 select-none">
+            <div className="w-fit px-6 py-2 bg-primary text-white rounded-lg hover:bg-white hover:text-primary border border-primary cursor-pointer active:scale-95 select-none">
               <h2 className="flex items-center gap-1">Add Member <div><IoMdAdd/></div></h2>
             </div>
         </div>

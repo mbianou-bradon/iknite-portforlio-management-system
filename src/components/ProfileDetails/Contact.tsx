@@ -93,7 +93,7 @@ export default function Contact(){
 
             <div>
                 <h2 className="text-lg font-semibold">Social Media</h2>
-                <div className="text-xl lg:text-2xl flex items-center sm:justify-cente my-5  gap-5 [&>*]:w-fit [&>*]:cursor-pointer [&>*]:bg-violet-600 [&>*]:text-white [&>*:hover]:bg-white [&>*:hover]:text-violet-600 [&>*]:border [&>*]:border-violet-600 [&>*]:rounded-lg [&>*]:px-2 [&>*]:py-1">
+                <div className="text-xl lg:text-2xl flex items-center sm:justify-cente my-5  gap-5 [&>*]:w-fit [&>*]:cursor-pointer [&>*]:bg-primary [&>*]:text-white [&>*:hover]:bg-white [&>*:hover]:text-primary [&>*]:border [&>*]:border-primary [&>*]:rounded-lg [&>*]:px-2 [&>*]:py-1">
                     {/* LinkedIn */}
 
                     {
@@ -164,7 +164,7 @@ export default function Contact(){
                     
                 </div>
 
-                <div className="rounded-lg mt-10 px-6 py-2 border border-violet-600 hover:text-white hover:bg-violet-800 active:scale-95 cursor-pointer w-fit "><h2>Message Me</h2></div>
+                <div className="rounded-lg mt-10 px-6 py-2 border border-primary hover:text-white hover:bg-primary active:scale-95 cursor-pointer w-fit "><h2>Message Me</h2></div>
             </div>
         </div>
     )

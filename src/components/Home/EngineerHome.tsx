@@ -15,7 +15,7 @@ export default function(){
 
     return(
         <div className="px-4 my-10 py-5 items-center xl:min-h-screen">
-            <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 bg-violet-800 text-white w-fit rounded-sm sm:mt-8 mb-12">
+            <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 text-primary w-fit rounded-sm sm:mt-8 mb-12">
                 <h2>Senior Developers</h2>
             </div>
 
