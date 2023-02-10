@@ -14,7 +14,7 @@ export default function(){
 
 
     return(
-        <div className="px-4 my-10 py-5 items-center xl:min-h-[80vh]">
+        <div className="px-4 my-10 py-5 items-center xl:min-h-[90vh]">
             <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 text-primary w-fit rounded-sm sm:mt-8 mb-12">
                 <h2>Senior Developers</h2>
             </div>
@@ -29,7 +29,7 @@ export default function(){
                 }
             </div>
 
-            <div className="w-fit px-6 py-2 cursor-pointer mx-auto mt-12 shadow-sm shadow-slate-900 hover:bg-slate-900 bg-white hover:text-white text-slate-900 border border-slate-900 rounded-lg active:scale-95"><Link to="/members">View all</Link></div>
+            <div className="underline hover:no-underline text-center"><Link to="/members">View all</Link></div>
         </div>
     )
 }

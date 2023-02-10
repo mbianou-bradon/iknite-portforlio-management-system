@@ -71,7 +71,6 @@ export default function Navbar(): JSX.Element {
               </li>
               <li onClick={handleClick}>
                 <NavLink to="/members" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
-                  <div></div>
                   <h2>Team</h2>
                   <TiGroup/>
                 </NavLink>
