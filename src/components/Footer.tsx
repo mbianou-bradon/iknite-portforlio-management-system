@@ -7,10 +7,10 @@ export default function Footer(){
         <footer className="px-5 md:px-10">
             <div className="my-5 mb-8 text-ce grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 text-sm text-slate-800 [&>*>h2]:text-primary [&>*>h2]:font-semibold [&>*>h2]:my-4 [&>*>h2]:text-lg [&>*>ul>li:hover]:underline [&>*>ul>li]:w-fit [&>*>ul>li]:mb-2">
                 <div className="short_about">
-                    <h2>SpaceIn</h2>
+                    <h2>IkniteSpaceIn</h2>
 
                     <p className="leading-7">
-                        SpaceIn is the LinkedIn of Iknite Space. 
+                        IkniteSpaceIn is the LinkedIn of Iknite Space. 
                         Here, you get know more about the Talents and Projects of Iknite Space
                     </p>
                 </div>
@@ -21,7 +21,7 @@ export default function Footer(){
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/projects">Projects</NavLink></li>
                         <li><NavLink to="/members">Members</NavLink></li>
-                        <li><NavLink to="/About">About</NavLink></li>
+                        <li><a href="https://iknite.space/" target="_blank" rel="noopener noreferrer">About</a></li>
                     </ul>
                 </div>
 

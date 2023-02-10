@@ -72,15 +72,15 @@ export default function Navbar(): JSX.Element {
               <li onClick={handleClick}>
                 <NavLink to="/members" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
                   <div></div>
-                  <h2>Members</h2>
+                  <h2>Team</h2>
                   <TiGroup/>
                 </NavLink>
               </li>
               <li onClick={handleClick}>
-                  <NavLink to="/About" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
+                  <a href="https://iknite.space/" target="_blank">
                     <h2>About Iknite</h2>
                     <AiFillExclamationCircle/>
-                  </NavLink>
+                  </a>
               </li>
           </ul>
 

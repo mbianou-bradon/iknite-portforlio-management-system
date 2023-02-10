@@ -12,7 +12,7 @@ export default function Members() {
   return (
     <div className="px-4 sm:px-8 min-h-screen">
       <header className="mb-5">
-        <h2 className="text-3xl font-semibold mb-5">Members</h2>
+        <h2 className="text-3xl font-semibold mb-5">Team Members</h2>
         <div className="flex items-center justify-between flex-wrap gap-y-5">
           <div className="flex gap-5 flex-wrap">
             <div className="border rounded-full w-fit flex px-2 sm:px-4 py-2 text-sm sm:text-[1rem]">

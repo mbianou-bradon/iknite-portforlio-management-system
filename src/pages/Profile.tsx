@@ -38,7 +38,7 @@ export default function Profile(){
                               <li><NavLink to={'/members/' + person.id + '/contact'} className={({isActive}) => isActive? "border-y-4 border-red-500 rounded text-red-500 py-2" : "border-y-4 border-transparent text-slate-900"}>Contact Info <span className="hidden md:inline">& Socials</span></NavLink></li>
                          </ul>
 
-                         <div className="h-[35rem] px-8 py-5 border rounded-xl shadow-inner">
+                         <div className="h-fit md:h-[35rem] px-8 py-5 border rounded-xl shadow-inner">
                               <Outlet />
                          </div>
                     </div>
