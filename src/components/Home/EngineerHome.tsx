@@ -10,7 +10,7 @@ let engineers: ProfileType[] = []
  engineers[3] = members[7]
  engineers[4] = members[8]
 
-export default function(){
+export default function EngineerHome(){
 
 
     return(
@@ -29,7 +29,7 @@ export default function(){
                 }
             </div>
 
-            <div className="underline hover:no-underline text-center"><Link to="/members">View all</Link></div>
+            <div className="underline hover:no-underline text-center mx-auto my-10 w-fit"><Link to="/members">View all</Link></div>
         </div>
     )
 }

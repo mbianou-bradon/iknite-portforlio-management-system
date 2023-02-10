@@ -3,6 +3,7 @@ import {TiGroup} from "react-icons/ti"
 import {IoIosPerson, IoMdMenu} from "react-icons/io"
 import {TfiLayoutGrid2Alt} from "react-icons/tfi"
 import { NavLink } from 'react-router-dom'
+import logo from "../assets/logo.png"
 
 export default function Navbar(): JSX.Element {
 
@@ -12,7 +13,9 @@ export default function Navbar(): JSX.Element {
 
   return (
     <nav className="flex items-center justify-between md:justify-around font-semibold py-5 bg-red-40 px-4 md:px-0 text-slate-900 relative">
-      <div className="brand text-2xl text-secondary">IkniteSpace<span className="text-slate-900">In</span></div>
+      <div className="brand text-2xl text-secondary flex items-center gap-0.5">
+        <div><img src={logo} alt="" className="h-5"/></div>
+        IkniteSpace<span className="text-slate-900">In</span></div>
       <ul className="hidden md:flex gap-10 [&>*>a]:flex [&>*>a]:items-center [&>*>a]:gap-1 [&>*:hover]:text-violet-800 [&>*]:cursor-pointer">
         <li>
             <NavLink to="/" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
@@ -29,15 +32,15 @@ export default function Navbar(): JSX.Element {
         <li>
             <NavLink to="/members" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
                 <div></div>
-                <h2>Members</h2>
+                <h2>Team</h2>
                 <TiGroup/>
             </NavLink>
         </li>
         <li>
-            <NavLink to="/About" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
+            <a href="https://iknite.space/" target="_blank" rel="noreferrer">
                 <h2>About Iknite</h2>
                 <AiFillExclamationCircle/>
-            </NavLink>
+            </a>
         </li>
       </ul>
 
@@ -76,7 +79,7 @@ export default function Navbar(): JSX.Element {
                 </NavLink>
               </li>
               <li onClick={handleClick}>
-                  <a href="https://iknite.space/" target="_blank">
+                  <a href="https://iknite.space/" target="_blank" rel="noreferrer">
                     <h2>About Iknite</h2>
                     <AiFillExclamationCircle/>
                   </a>

@@ -11,7 +11,7 @@ let designers: ProfileType[] = []
  designers[4] = members[13]
 
 
-export default function(){
+export default function DesignerHome(){
     return(
         <div className="px-4 my-10 py-5 items-center xl:min-h-[90vh] bg-secondary">
             <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 bg-[#ff4f5b] text-white rounded w-fit my-5">
@@ -28,7 +28,7 @@ export default function(){
                 }
             </div>
 
-            <div className="underline hover:no-underline text-center"><Link to="/members">View all</Link></div>
+            <div className="underline hover:no-underline text-center mx-auto my-10 w-fit"><Link to="/members">View all</Link></div>
         </div>
     )
 }
