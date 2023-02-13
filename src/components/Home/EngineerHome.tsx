@@ -14,8 +14,8 @@ export default function EngineerHome(){
 
 
     return(
-        <div className="px-4 my-10 py-5 items-center xl:min-h-[90vh]">
-            <div className="designer text-xl md:text-2xl font-semibold py-2 px-4 text-primary w-fit rounded-sm sm:mt-8 mb-12">
+        <div className="px-4 my-10 py-5 flex flex-col justify-center items-center xl:min-h-[90vh]">
+            <div className="designer place-self-start text-xl md:text-2xl font-semibold pb-2 px-4 text-primary w-fit rounded-sm sm:mt-8 mb-12">
                 <h2>Senior Developers</h2>
             </div>
 
@@ -29,7 +29,7 @@ export default function EngineerHome(){
                 }
             </div>
 
-            <div className="underline hover:no-underline text-center mx-auto my-10 w-fit"><Link to="/members">View all</Link></div>
+            <div className="underline hover:no-underline text-center mx-auto mt-10 w-fit"><Link to="/members">View all</Link></div>
         </div>
     )
 }

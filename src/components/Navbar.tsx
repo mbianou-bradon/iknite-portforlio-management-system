@@ -25,7 +25,7 @@ export default function Navbar(): JSX.Element {
         </li>
         <li>
             <NavLink to="/projects" className={({isActive}) => isActive? "text-secondary" : "text-slate-900 hover:text-secondary"}>
-                <h2>Project</h2>
+                <h2>Projects</h2>
                 <TfiLayoutGrid2Alt />
             </NavLink>
         </li>
